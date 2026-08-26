@@ -1,0 +1,13 @@
+streamlit>=1.35
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4
+scipy>=1.11
+joblib>=1.3
+plotly>=5.20
+pdfplumber>=0.10
+reportlab>=4.0
+
+# Optional: enables exact SHAP attribution when available.
+# The application has a feature-importance fallback if SHAP is not installed.
+# shap>=0.45

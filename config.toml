@@ -1,0 +1,12 @@
+# Forces the app to always render in this dark "Aurora Glass" palette,
+# regardless of the visitor's OS/browser light-or-dark setting. Without
+# this, Streamlit's "Auto" theme follows the system preference and can
+# render some native widgets (alerts, expanders, dataframes, sliders)
+# in light colors that clash with the app's dark CSS background.
+[theme]
+base = "dark"
+primaryColor = "#8b5cf6"
+backgroundColor = "#0b0f1e"
+secondaryBackgroundColor = "#141a30"
+textColor = "#eef1fb"
+font = "sans serif"
