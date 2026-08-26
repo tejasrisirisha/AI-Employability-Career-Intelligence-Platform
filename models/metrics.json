@@ -1,0 +1,85 @@
+{
+  "best_model": "GradientBoosting",
+  "accuracy": 0.7792,
+  "precision": 0.7345,
+  "recall": 0.6032,
+  "f1_score": 0.6624,
+  "roc_auc": 0.846,
+  "confusion_matrix": [
+    [
+      675,
+      94
+    ],
+    [
+      171,
+      260
+    ]
+  ],
+  "all_models_compared": {
+    "RandomForest": {
+      "auc": 0.8261,
+      "accuracy": 0.765,
+      "f1": 0.5983,
+      "cv_auc": 0.8045
+    },
+    "GradientBoosting": {
+      "auc": 0.846,
+      "accuracy": 0.7792,
+      "f1": 0.6624,
+      "cv_auc": 0.8367
+    },
+    "LogisticRegression": {
+      "auc": 0.8045,
+      "accuracy": 0.7408,
+      "f1": 0.6028,
+      "cv_auc": 0.7727
+    }
+  },
+  "n_train": 4800,
+  "n_test": 1200,
+  "feature_columns": [
+    "CGPA",
+    "SSC_Marks",
+    "HSC_Marks",
+    "Internships",
+    "Projects",
+    "Certifications",
+    "Backlogs",
+    "Aptitude_Score",
+    "Technical_Skill",
+    "Coding_Skill",
+    "Communication_Skill",
+    "Soft_Skill",
+    "Extracurricular_Score",
+    "Leadership_Score",
+    "Workshops_Attended",
+    "Mock_Interview_Score",
+    "LinkedIn_GitHub_Activity",
+    "Gender",
+    "Branch",
+    "Placement_Training"
+  ],
+  "feature_importances": {
+    "Branch": 0.3037,
+    "Backlogs": 0.1408,
+    "Internships": 0.1119,
+    "Projects": 0.0579,
+    "CGPA": 0.0569,
+    "Aptitude_Score": 0.0553,
+    "Technical_Skill": 0.0447,
+    "Coding_Skill": 0.0354,
+    "Communication_Skill": 0.0273,
+    "Soft_Skill": 0.0264,
+    "Certifications": 0.0248,
+    "HSC_Marks": 0.0188,
+    "Mock_Interview_Score": 0.0185,
+    "Placement_Training": 0.0169,
+    "Extracurricular_Score": 0.0156,
+    "Leadership_Score": 0.0149,
+    "LinkedIn_GitHub_Activity": 0.0148,
+    "SSC_Marks": 0.0132,
+    "Workshops_Attended": 0.0019,
+    "Gender": 0.0
+  },
+  "package_regressor_r2": 0.5817
+}
